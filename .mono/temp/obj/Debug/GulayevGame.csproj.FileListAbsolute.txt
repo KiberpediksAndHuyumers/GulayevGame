@@ -1,0 +1,9 @@
+D:\UserFiles\Documents\Projects\Godot\GulayevGame\.mono\temp\bin\Debug\GulayevGame.dll
+D:\UserFiles\Documents\Projects\Godot\GulayevGame\.mono\temp\bin\Debug\GulayevGame.pdb
+D:\UserFiles\Documents\Projects\Godot\GulayevGame\.mono\temp\obj\Debug\GulayevGame.csproj.AssemblyReference.cache
+D:\UserFiles\Documents\Projects\Godot\GulayevGame\.mono\temp\obj\Debug\GulayevGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\UserFiles\Documents\Projects\Godot\GulayevGame\.mono\temp\obj\Debug\GulayevGame.AssemblyInfoInputs.cache
+D:\UserFiles\Documents\Projects\Godot\GulayevGame\.mono\temp\obj\Debug\GulayevGame.AssemblyInfo.cs
+D:\UserFiles\Documents\Projects\Godot\GulayevGame\.mono\temp\obj\Debug\GulayevGame.csproj.CoreCompileInputs.cache
+D:\UserFiles\Documents\Projects\Godot\GulayevGame\.mono\temp\obj\Debug\GulayevGame.dll
+D:\UserFiles\Documents\Projects\Godot\GulayevGame\.mono\temp\obj\Debug\GulayevGame.pdb
