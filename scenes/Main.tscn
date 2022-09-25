@@ -1,6 +1,6 @@
 [gd_scene load_steps=12 format=2]
 
-[ext_resource path="res://scenes/prefabs/Gulaev.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/prefabs/Gulayev.tscn" type="PackedScene" id=1]
 [ext_resource path="res://icon.png" type="Texture" id=3]
 [ext_resource path="res://audio/hotline_miami_02. M.O.O.N - Hydrogen.mp3" type="AudioStream" id=4]
 [ext_resource path="res://assets/0x72_DungeonTilesetII_v1.4/frames/doors_leaf_closed.png" type="Texture" id=5]
