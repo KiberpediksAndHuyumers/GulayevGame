@@ -7,3 +7,12 @@ D:\UserFiles\Documents\Projects\Godot\GulayevGame\.mono\temp\obj\Debug\GulayevGa
 D:\UserFiles\Documents\Projects\Godot\GulayevGame\.mono\temp\obj\Debug\GulayevGame.csproj.CoreCompileInputs.cache
 D:\UserFiles\Documents\Projects\Godot\GulayevGame\.mono\temp\obj\Debug\GulayevGame.dll
 D:\UserFiles\Documents\Projects\Godot\GulayevGame\.mono\temp\obj\Debug\GulayevGame.pdb
+C:\Users\anast\Documents\GitHub\GulayevGame\.mono\temp\bin\Debug\GulayevGame.dll
+C:\Users\anast\Documents\GitHub\GulayevGame\.mono\temp\bin\Debug\GulayevGame.pdb
+C:\Users\anast\Documents\GitHub\GulayevGame\.mono\temp\obj\Debug\GulayevGame.csproj.AssemblyReference.cache
+C:\Users\anast\Documents\GitHub\GulayevGame\.mono\temp\obj\Debug\GulayevGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anast\Documents\GitHub\GulayevGame\.mono\temp\obj\Debug\GulayevGame.AssemblyInfoInputs.cache
+C:\Users\anast\Documents\GitHub\GulayevGame\.mono\temp\obj\Debug\GulayevGame.AssemblyInfo.cs
+C:\Users\anast\Documents\GitHub\GulayevGame\.mono\temp\obj\Debug\GulayevGame.csproj.CoreCompileInputs.cache
+C:\Users\anast\Documents\GitHub\GulayevGame\.mono\temp\obj\Debug\GulayevGame.dll
+C:\Users\anast\Documents\GitHub\GulayevGame\.mono\temp\obj\Debug\GulayevGame.pdb
