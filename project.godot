@@ -8,11 +8,25 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Reference",
+"class": "VirtualJoystick",
+"language": "GDScript",
+"path": "res://joystick/virtual_joystick.gd"
+} ]
+_global_script_class_icons={
+"VirtualJoystick": ""
+}
+
 [application]
 
 config/name="GulayevGame"
 run/main_scene="res://scenes/Main.tscn"
 config/icon="res://icon.png"
+
+[global]
+
+touch=false
 
 [gui]
 
@@ -40,6 +54,14 @@ move_down={
 "events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":83,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
  ]
 }
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
+[mono]
+
+project/assembly_name="GulayevGame"
 
 [physics]
 

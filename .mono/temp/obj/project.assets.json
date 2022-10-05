@@ -8,24 +8,19 @@
     ".NETFramework,Version=v4.7.2": []
   },
   "packageFolders": {
-    "C:\\Users\\anast\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Gomofob\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anast\\Documents\\GitHub\\GulayevGame\\GulayevGame.csproj",
+      "projectUniqueName": "D:\\UserFiles\\Documents\\Projects\\Godot\\GulayevGame\\GulayevGame.csproj",
       "projectName": "GulayevGame",
-      "projectPath": "C:\\Users\\anast\\Documents\\GitHub\\GulayevGame\\GulayevGame.csproj",
-      "packagesPath": "C:\\Users\\anast\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anast\\Documents\\GitHub\\GulayevGame\\.mono\\temp\\obj\\",
+      "projectPath": "D:\\UserFiles\\Documents\\Projects\\Godot\\GulayevGame\\GulayevGame.csproj",
+      "packagesPath": "C:\\Users\\Gomofob\\.nuget\\packages\\",
+      "outputPath": "D:\\UserFiles\\Documents\\Projects\\Godot\\GulayevGame\\.mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\anast\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Gomofob\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -51,7 +45,7 @@
     "frameworks": {
       "net472": {
         "targetAlias": "net472",
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }
