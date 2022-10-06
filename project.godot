@@ -24,6 +24,11 @@ config/name="GulayevGame"
 run/main_scene="res://scenes/Main.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+SceneManager="*res://scripts/SceneManager.cs"
+Network="*res://scripts/network/Network.cs"
+
 [global]
 
 touch=false

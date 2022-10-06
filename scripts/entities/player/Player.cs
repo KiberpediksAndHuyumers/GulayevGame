@@ -15,7 +15,7 @@ public class Player : KinematicBody2D
     int jumpsMade;
     Vector2 velocity = Vector2.Zero;
 
-    int health = 100;
+    int health = 10;
 
     AnimatedSprite sprite;
 
@@ -53,7 +53,8 @@ public class Player : KinematicBody2D
         health -= amount;
         if (health <= 0)
         {
-            GetTree().Quit();
+            GetTree().ChangeSceneTo(ResourceLoader.Load<PackedScene>("res://scenes/KillScreen.tscn"));
+            GetTree().Root.RemoveChild(GetNode("/root/Node2D"));
         }
     }
 }
