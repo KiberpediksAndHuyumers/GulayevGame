@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://scenes/prefabs/Gulayev.tscn" type="PackedScene" id=1]
 [ext_resource path="res://scenes/HUD.tscn" type="PackedScene" id=2]
@@ -55,6 +55,11 @@ points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
 
 [sub_resource type="CapsuleShape2D" id=5]
 
+[sub_resource type="NavigationPolygon" id=6]
+vertices = PoolVector2Array( 136, 8, 248, 64, -176, 64, -72, 8, 104, -120, 1368, -864, 1360, 1192, 136, -64, 240, 112, -1088, 1048, -176, 112, -904, -712, 104, -64, -72, -120 )
+polygons = [ PoolIntArray( 0, 1, 2, 3 ), PoolIntArray( 4, 5, 6, 1, 7 ), PoolIntArray( 8, 1, 6 ), PoolIntArray( 8, 6, 9, 10 ), PoolIntArray( 10, 9, 11, 2 ), PoolIntArray( 7, 12, 4 ), PoolIntArray( 3, 2, 11, 13 ), PoolIntArray( 13, 11, 5, 4 ), PoolIntArray( 7, 1, 0 ) ]
+outlines = [ PoolVector2Array( -904, -712, -1088, 1048, 1360, 1192, 1368, -864 ), PoolVector2Array( -72, -120, -72, 8, 136, 8, 136, -64, 104, -64, 104, -120 ), PoolVector2Array( -176, 64, 248, 64, 240, 112, -176, 112 ) ]
+
 [node name="Node2D" type="Node2D"]
 
 [node name="HUD" parent="." instance=ExtResource( 2 )]
@@ -100,5 +105,9 @@ packedEnemy = ExtResource( 7 )
 
 [node name="Timer" type="Timer" parent="EnemySpawner"]
 autostart = true
+
+[node name="NavigationPolygonInstance" type="NavigationPolygonInstance" parent="."]
+position = Vector2( -32, -8 )
+navpoly = SubResource( 6 )
 
 [connection signal="timeout" from="EnemySpawner/Timer" to="EnemySpawner" method="_OnTimerTimeout"]

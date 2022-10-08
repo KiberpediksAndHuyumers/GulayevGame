@@ -17,13 +17,15 @@ public class Player : KinematicBody2D
 
     int health = 10;
 
-    AnimatedSprite sprite;
+    AnimatedSprite animatedSprite;
+    AnimationPlayer attackAnim;
 
     public override void _Ready()
     {
         base._Ready();
 
-        sprite = GetNode<AnimatedSprite>("CollisionShape2D/AnimatedSprite");
+        animatedSprite = GetNode<AnimatedSprite>("CollisionShape2D/AnimatedSprite");
+        attackAnim = GetNode<AnimationPlayer>("CollisionShape2D/AnimatedSprite/Area2D/AnimationPlayer");
     }
 
     public override void _PhysicsProcess(float delta)
@@ -38,23 +40,42 @@ public class Player : KinematicBody2D
 
         if (velocity.x < 0)
         {
-            sprite.FlipH = true;
+            animatedSprite.Scale = new Vector2(-Scale.x, Scale.y);
         }
         else if (velocity.x > 0)
         {
-            sprite.FlipH = false;
+            animatedSprite.Scale = new Vector2(Scale.x, Scale.y);
         }
 
         velocity = MoveAndSlide(velocity, upDirection);
     }
 
+    public override void _Input(InputEvent @event)
+    {
+        base._Input(@event);
+
+        if (@event.IsAction("player_attack"))
+        {
+            attackAnim.Play("SlashAttack");
+        }
+    }
+
     public void TakeDamage(int amount)
     {
+        HUD.instance.TakeDamage(amount);
         health -= amount;
         if (health <= 0)
         {
-            GetTree().ChangeSceneTo(ResourceLoader.Load<PackedScene>("res://scenes/KillScreen.tscn"));
-            GetTree().Root.RemoveChild(GetNode("/root/Node2D"));
+            GetTree().ChangeScene("res://scenes/KillScreen.tscn");
+        }
+    }
+
+    public void _OnArea2DBodyEntered(Node body)
+    {
+        if (body.IsInGroup("Enemy"))
+        {
+            Enemy _enemy = (Enemy)body;
+            _enemy.TakeDamage(1);
         }
     }
 }

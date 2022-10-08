@@ -35,6 +35,6 @@ public class SpawnEnemies : Node
         random.Randomize();
         KinematicBody2D enemy = packedEnemy.Instance<KinematicBody2D>();
         enemy.Position = screenEdges[random.RandiRange(0, screenEdges.Length - 1)];
-        GetTree().Root.AddChild(enemy);
+        AddChild(enemy);
     }
 }
