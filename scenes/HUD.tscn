@@ -29,6 +29,7 @@ margin_left = 0.0
 margin_top = -300.0
 margin_right = 300.0
 margin_bottom = -6.10352e-05
+joystick_mode = 1
 action_left = "move_left"
 action_right = "move_right"
 action_up = "move_up"

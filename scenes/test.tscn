@@ -1,7 +1,7 @@
-[gd_scene load_steps=28 format=2]
+[gd_scene load_steps=27 format=2]
 
 [ext_resource path="res://scenes/prefabs/Gulayev.tscn" type="PackedScene" id=1]
-[ext_resource path="res://assets/0x72_DungeonTilesetII_v1.4/frames/floor_2.png" type="Texture" id=2]
+[ext_resource path="res://resources/TileSet.tres" type="TileSet" id=2]
 [ext_resource path="res://assets/0x72_DungeonTilesetII_v1.4/frames/wall_side_mid_right.png" type="Texture" id=3]
 [ext_resource path="res://assets/0x72_DungeonTilesetII_v1.4/frames/wall_inner_corner_l_top_rigth.png" type="Texture" id=4]
 [ext_resource path="res://assets/0x72_DungeonTilesetII_v1.4/frames/wall_side_top_right.png" type="Texture" id=5]
@@ -15,22 +15,6 @@
 [ext_resource path="res://scenes/prefabs/assets/walls/WallCornerTopLeft.tscn" type="PackedScene" id=13]
 [ext_resource path="res://scenes/prefabs/assets/walls/WallTopMid.tscn" type="PackedScene" id=14]
 [ext_resource path="res://scenes/prefabs/assets/floors/FloorEmpty(2x2).tscn" type="PackedScene" id=16]
-
-[sub_resource type="TileSet" id=1]
-0/name = "floor_2.png 0"
-0/texture = ExtResource( 2 )
-0/tex_offset = Vector2( 0, 0 )
-0/modulate = Color( 1, 1, 1, 1 )
-0/region = Rect2( 1, 1, 15, 15 )
-0/tile_mode = 0
-0/occluder_offset = Vector2( 0, 0 )
-0/navigation_offset = Vector2( 0, 0 )
-0/shape_offset = Vector2( 0, 0 )
-0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-0/shape_one_way = false
-0/shape_one_way_margin = 0.0
-0/shapes = [  ]
-0/z_index = 0
 
 [sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 2.5, 8 )
@@ -68,11 +52,11 @@ extents = Vector2( 10, 2.25 )
 [node name="Node2D" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
-tile_set = SubResource( 1 )
+tile_set = ExtResource( 2 )
 cell_size = Vector2( 15, 15 )
 cell_quadrant_size = 13
 format = 1
-tile_data = PoolIntArray( -196612, 0, 0, -196611, 0, 0, -196610, 0, 0, -196609, 0, 0, -262144, 0, 0, -262143, 0, 0, -262142, 0, 0, -131076, 0, 0, -131075, 0, 0, -131074, 0, 0, -131073, 0, 0, -196608, 0, 0, -196607, 0, 0, -196606, 0, 0, -65540, 0, 0, -65539, 0, 0, -65538, 0, 0, -65537, 0, 0, -131072, 0, 0, -131071, 0, 0, -131070, 0, 0, -4, 0, 0, -3, 0, 0, -2, 0, 0, -1, 0, 0, -65536, 0, 0, -65535, 0, 0, -65534, 0, 0, 65532, 0, 0, 65533, 0, 0, 65534, 0, 0, 65535, 0, 0, 0, 0, 0, 1, 0, 0, 2, 0, 0, 131068, 0, 0, 131069, 0, 0, 131070, 0, 0, 131071, 0, 0, 65536, 0, 0, 65537, 0, 0, 65538, 0, 0, 196604, 0, 0, 196605, 0, 0, 196606, 0, 0, 196607, 0, 0, 131072, 0, 0, 131073, 0, 0, 131074, 0, 0 )
+tile_data = PoolIntArray( -589832, 13, 0, -589831, 13, 0, -589830, 13, 0, -589829, 13, 0, -589828, 13, 0, -589827, 13, 0, -589826, 13, 0, -589825, 13, 0, -524296, 13, 0, -524295, 13, 0, -524294, 13, 0, -524293, 13, 0, -524292, 13, 0, -524291, 13, 0, -524290, 13, 0, -524289, 13, 0, -458760, 13, 0, -458759, 13, 0, -458758, 13, 0, -458757, 13, 0, -458756, 13, 0, -458755, 13, 0, -458754, 13, 0, -458753, 13, 0, -393224, 13, 0, -393223, 13, 0, -393222, 13, 0, -393221, 13, 0, -393220, 13, 0, -393219, 13, 0, -393218, 13, 0, -393217, 13, 0 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 

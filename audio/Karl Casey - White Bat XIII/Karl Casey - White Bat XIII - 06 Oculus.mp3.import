@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Karl Casey - White Bat XIII - 06 Oculus.mp3-a705cd5a8333022502db46e0ddd29931.mp3str"
+
+[deps]
+
+source_file="res://audio/Karl Casey - White Bat XIII/Karl Casey - White Bat XIII - 06 Oculus.mp3"
+dest_files=[ "res://.import/Karl Casey - White Bat XIII - 06 Oculus.mp3-a705cd5a8333022502db46e0ddd29931.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
