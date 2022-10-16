@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://joystick/virtual_joystick.tscn" type="PackedScene" id=1]
+[ext_resource path="res://addons/joystick/virtual_joystick.tscn" type="PackedScene" id=1]
 [ext_resource path="res://assets/Google_Chrome_icon_(2011).png" type="Texture" id=2]
 [ext_resource path="res://scripts/ui/HUD.cs" type="Script" id=3]
 [ext_resource path="res://assets/GULYAEV/cigarette-mrl-red.png" type="Texture" id=4]

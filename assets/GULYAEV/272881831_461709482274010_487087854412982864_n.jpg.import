@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/joystick_base_outline.png-483e8f1ac02a5b9a594f81d7e341a76f.stex"
+path="res://.import/272881831_461709482274010_487087854412982864_n.jpg-e23ab9d5ec57eb14c1c468cb8fa025af.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://joystick/textures/joystick_base_outline.png"
-dest_files=[ "res://.import/joystick_base_outline.png-483e8f1ac02a5b9a594f81d7e341a76f.stex" ]
+source_file="res://assets/GULYAEV/272881831_461709482274010_487087854412982864_n.jpg"
+dest_files=[ "res://.import/272881831_461709482274010_487087854412982864_n.jpg-e23ab9d5ec57eb14c1c468cb8fa025af.stex" ]
 
 [params]
 

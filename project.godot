@@ -9,10 +9,10 @@
 config_version=4
 
 _global_script_classes=[ {
-"base": "Reference",
+"base": "Control",
 "class": "VirtualJoystick",
 "language": "GDScript",
-"path": "res://joystick/virtual_joystick.gd"
+"path": "res://addons/joystick/virtual_joystick.gd"
 } ]
 _global_script_class_icons={
 "VirtualJoystick": ""
@@ -26,7 +26,7 @@ config/icon="res://icon.png"
 
 [autoload]
 
-Network="*res://scripts/network/Network.cs"
+SceneChanger="*res://scripts/autoload/SceneChanger.cs"
 
 [display]
 
